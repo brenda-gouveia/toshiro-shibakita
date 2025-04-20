@@ -2,6 +2,16 @@
 
 Este projeto configura um ambiente completo com Docker Swarm, NGINX como proxy reverso e MySQL, utilizando três scripts automatizados para facilitar o processo.
 
+## 🖥️ Sobre o Projeto
+
+A proposta deste projeto é demonstrar a utilização prática de **Docker** e **Docker Swarm** no contexto de microsserviços. Inspirado na história fictícia de **Toshiro Shibakita**, o projeto explora cenários comuns de infraestrutura moderna, como balanceamento de carga, persistência de dados e automação, no ambiente de contêineres.
+
+**Objetivos principais:**
+- Criar um cluster Docker Swarm funcional.
+- Automatizar a configuração de um banco de dados MySQL customizado.
+- Configurar um proxy reverso com NGINX para balanceamento de carga.
+- Simplificar o processo de setup com scripts bem definidos.
+
 ## 🛠️ Ferramentas Utilizadas
 
 - **Docker** e **Docker Swarm**
@@ -13,7 +23,7 @@ Este projeto configura um ambiente completo com Docker Swarm, NGINX como proxy r
 
 ## 📁 Estrutura do Projeto
 
-```
+```plaintext
 .
 ├── proxy/
 │   ├── Dockerfile
@@ -76,7 +86,6 @@ Acesse a aplicação em:
 http://localhost:4500
 ```
 
-
 ## ✅ Funcionalidades
 
 - Cluster de containers PHP Apache replicados.
@@ -84,3 +93,13 @@ http://localhost:4500
 - Proxy reverso com NGINX para balanceamento de carga.
 - Inicialização automática do banco de dados MySQL com script customizado.
 - Scripts automatizados para facilitar setup local ou em cloud.
+
+## 🌟 Projeto Base
+
+Este projeto é inspirado na história fictícia de **Toshiro Shibakita**, um dono de supermercados que navega pelos desafios de microsserviços em seu ambiente de trabalho. A ideia central é mostrar como ferramentas modernas como Docker e Docker Swarm podem ser aplicadas para resolver problemas reais de infraestrutura, como:
+
+- Escalabilidade horizontal de aplicações.
+- Persistência de dados em um ambiente distribuído.
+- Balanceamento de carga para melhorar a performance e disponibilidade.
+
+O nome do projeto também reflete a temática de aprendizado e experimentação em ambientes complexos, trazendo um toque criativo e único à iniciativa.
